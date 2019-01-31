@@ -25,7 +25,7 @@
     </h1>
   </div>
   <div class="row">
-    <div class="col-4" id="specbar">
+    <div class="col-md-6 col-xl-2" id="specbar">
       <h2>Transformer Specs</h2>
       <ul>
         <li>Substation:</li>
@@ -38,167 +38,576 @@
       </ul>
     </div>
 
-    <div class="col-8">
+    <div class="col-md-6 col-xl-10">
       <div class="row">
-        <div class="col-12 ">
-          <h3>Controlling Oil Leakage</h3>
-          <form>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+          <div class="checkgroup">
+              <h3>Controlling Oil Leakage</h3>
+          </div>
+          <form class="form-horizontal">
             <h5>Valves:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="Valveschecked">
+                  <input type="radio" class="form-check-inline form-control" name="Valveschecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="Valveschecked">
+                  <input type="radio" class="form-check-inline form-control" name="Valveschecked">
                 </label>
               </div>
             <h5>Pipes:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="pipeschecked">
+                  <input type="radio" class="form-check-inline form-control" name="pipeschecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="pipeschecked"">
+                  <input type="radio" class="form-check-inline form-control" name="pipeschecked"">
                 </label>
               </div>
             <h5>Radiators:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="radiatorschecked" >
+                  <input type="radio" class="form-check-inline form-control" name="radiatorschecked" >
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="radiatorschecked">
+                  <input type="radio" class="form-check-inline form-control" name="radiatorschecked">
                 </label>
               </div>
             <h5>Bushings:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="bushingschecked">
+                  <input type="radio" class="form-check-inline form-control" name="bushingschecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="bushingschecked">
+                  <input type="radio" class="form-check-inline form-control" name="bushingschecked">
                 </label>
             </div>
             <h5>Buchholtz:</h5>
             <div class="form-group">
                 <label class="radio-inline" >
                   OK
-                  <input type="radio" class="form-check-inline" name="buchholtzchecked">
+                  <input type="radio" class="form-check-inline form-control" name="buchholtzchecked">
                 </label>
                 <label  class="radio-inline" >
                   Not OK
-                  <input type="radio" class="form-check-inline" name="buchholtzchecked">
+                  <input type="radio" class="form-check-inline form-control" name="buchholtzchecked">
                 </label>
               </div>
             <h5>B.T.C.T:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="BTCTchecked">
+                  <input type="radio" class="form-check-inline form-control" name="BTCTchecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="BTCTchecked">
+                  <input type="radio" class="form-check-inline form-control" name="BTCTchecked">
                 </label>
               </div>
           </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Checking the oil level</h3>
-          <ul>
-            <li>Bushings</li>
-            <li>Main Conservator</li>
-            <li>Tap Changer Conservator</li>
-          </ul>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+          <div class="checkgroup">
+                      <h3>Checking the oil level</h3>
+          </div>
+          <form class="form-horizontal">
+            <h5>Bushings</h5>
+            <div class="form-group">
+              <label class="radio-inline">
+                OK
+                <input type="radio" class="form-check-inline form-control" name="Bushingschecked">
+              </label>
+              <label  class="radio-inline">
+                Not OK
+                <input type="radio" class="form-check-inline form-control" name="Bushingschecked">
+              </label>
+            </div>
+            <h5>Main Conservator</h5>
+            <div class="form-group">
+              <label class="radio-inline">
+                OK
+                <input type="radio" class="form-check-inline form-control" name="MainConservatorchecked">
+              </label>
+              <label  class="radio-inline">
+                Not OK
+                <input type="radio" class="form-check-inline form-control" name="MainConservatorchecked">
+              </label>
+            </div>
+            <h5>Tap Changer Conservator</h5>
+            <div class="form-group">
+              <label class="radio-inline">
+                OK
+                <input type="radio" class="form-check-inline form-control" name="TapChangerConservatorchecked">
+              </label>
+              <label  class="radio-inline">
+                Not OK
+                <input type="radio" class="form-check-inline form-control" name="TapChangerConservatorchecked">
+              </label>
+            </div>
+          </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Controlling The Connection</h3>
-          <form>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+          <div class="checkgroup">
+              <h3>Controlling The Connection</h3>
+          </div>
+          <form class="form-horizontal">
             <h5>HV/LV:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="HVLVchecked">
+                  <input type="radio" class="form-check-inline form-control" name="HVLVchecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="HVLVchecked">
+                  <input type="radio" class="form-check-inline form-control" name="HVLVchecked">
                 </label>
               </div>
             <h5>CT Wires:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="ctwireschecked">
+                  <input type="radio" class="form-check-inline form-control" name="ctwireschecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="ctwireschecked">
+                  <input type="radio" class="form-check-inline form-control" name="ctwireschecked">
                 </label>
               </div>
             <h5>Pipes:</h5>
             <div class="form-group">
                 <label class="radio-inline">
                   OK
-                  <input type="radio" class="form-check-inline" name="pipeschecked">
+                  <input type="radio" class="form-check-inline form-control" name="pipeschecked">
                 </label>
                 <label  class="radio-inline">
                   Not OK
-                  <input type="radio" class="form-check-inline" name="pipeschecked">
+                  <input type="radio" class="form-check-inline form-control" name="pipeschecked">
                 </label>
               </div>
           </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Controlling All Screws</h3>
-          <ul>
-            <li>Controlling all Screws</li>
-          </ul>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+          <div class="checkgroup">
+              <h3>Controlling All Screws</h3>
+          </div>
+          <form class="form-horizontal">
+            <h5>Controlling all Screws</h5>
+            <div class="form-group">
+              <label class="radio-inline">
+                OK
+                <input type="radio" class="form-check-inline form-control" name="AllScrewschecked">
+              </label>
+              <label  class="radio-inline">
+                Not OK
+                <input type="radio" class="form-check-inline form-control" name="AllScrewschecked">
+              </label>
+            </div>
+          </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Controlling the valves to be close/open</h3>
-          <ul>
-            <li>Controlling the valves to be close/open</li>
-          </ul>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+          <div class="checkgroup">
+                      <h3>Controlling the valves to be close/open</h3>
+          </div>
+          <form class="form-horizontal">
+            <h5>Controlling the valves to be close/open</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="ValvesOpenClosechecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="ValvesOpenClosechecked">
+                </label>
+              </div>
+          </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Checking the earth Connection</h3>
-          <ul>
-            <li>Tank</li>
-            <li>Top Cover</li>
-            <li>Bushings</li>
-            <li>CTs Secondary</li>
-          </ul>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+          <div class="checkgroup">
+                      <h3>Checking the earth Connection</h3>
+          </div>
+          <form class="form-horizontal">
+            <h5>Tank</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="Tankchecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="Tankchecked">
+                </label>
+              </div>
+            <h5>Top Cover</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="TopCoverchecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="TopCoverchecked">
+                </label>
+              </div>
+            <h5>Bushings</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="Bushingschecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="Bushingschecked">
+                </label>
+              </div>
+            <h5>CTs Secondary</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="CTSecondarychecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="CTSecondarychecked">
+                </label>
+              </div>
+          </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Controlling the breather (Main/Tap changer)</h3>
-          <ul>
-            <li>SilicaGel</li>
-            <li>Oil</li>
-            <li>O-Rings</li>
-            <li>Glass</li>
-            <li>Pipe or plastic Pipe</li>
-          </ul>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+            <div class="checkgroup">
+                      <h3>Controlling the breather</h3>
+                      <h3>(Main/Tap changer)</h3>
+              </div>
+          <form class="form-horizontal">
+              <h5>Wire Connection</h5>
+              <div class="form-group">
+                  <label class="radio-inline">
+                    OK
+                    <input type="radio" class="form-check-inline form-control" name="WireConnectionchecked">
+                  </label>
+                  <label  class="radio-inline">
+                    Not OK
+                    <input type="radio" class="form-check-inline form-control" name="WireConnectionchecked">
+                  </label>
+                </div>
+              <h5>Gland & Box Sealing</h5>
+              <div class="form-group">
+                  <label class="radio-inline">
+                    OK
+                    <input type="radio" class="form-check-inline form-control" name="Glandchecked">
+                  </label>
+                  <label  class="radio-inline">
+                    Not OK
+                    <input type="radio" class="form-check-inline form-control" name="Glandchecked">
+                  </label>
+                </div>
+              <h5>Floats</h5>
+              <div class="form-group">
+                  <label class="radio-inline">
+                    OK
+                    <input type="radio" class="form-check-inline form-control" name="Floatschecked">
+                  </label>
+                  <label  class="radio-inline">
+                    Not OK
+                    <input type="radio" class="form-check-inline form-control" name="Floatschecked">
+                  </label>
+                </div>
+              <h5>Mercury Contacs</h5>
+              <div class="form-group">
+                  <label class="radio-inline">
+                    OK
+                    <input type="radio" class="form-check-inline form-control" name="MercuryContactschecked">
+                  </label>
+                  <label  class="radio-inline">
+                    Not OK
+                    <input type="radio" class="form-check-inline form-control" name="MercuryContactschecked">
+                  </label>
+                </div>
+              <h5>Alarm/Trip (by compressed air)</h5>
+              <div class="form-group">
+                  <label class="radio-inline">
+                    OK
+                    <input type="radio" class="form-check-inline form-control" name="AlarmTripchecked">
+                  </label>
+                  <label  class="radio-inline">
+                    Not OK
+                    <input type="radio" class="form-check-inline form-control" name="AlarmTripchecked">
+                  </label>
+                </div>
+            </form>
         </div>
-        <div class="col-12 checkfield">
-          <h3>Checking & Testing the Buchholtz</h3>
-          <ul>
-            <li>Wire Connection</li>
-            <li>Gland & Box Sealing</li>
-            <li>Floats</li>
-            <li>Mercury Contacs</li>
-            <li>Alarm/Trip (by compressed air)</li>
-          </ul>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+            <div class="checkgroup">
+                      <h3>Checking & Testing the Buchholtz</h3>
+              </div>
+          <form class="form-horizontal">
+            <h5>Wire Connection</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="WireConnectionchecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="WireConnectionchecked">
+                </label>
+              </div>
+            <h5>Gland & Box Sealing</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="Glandchecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="Glandchecked">
+                </label>
+              </div>
+            <h5>Floats</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="Floatschecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="Floatschecked">
+                </label>
+              </div>
+            <h5>Mercury Contacs</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="MercuryContactschecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="MercuryContactschecked">
+                </label>
+              </div>
+            <h5>Alarm/Trip (by compressed air)</h5>
+            <div class="form-group">
+                <label class="radio-inline">
+                  OK
+                  <input type="radio" class="form-check-inline form-control" name="AlarmTripchecked">
+                </label>
+                <label  class="radio-inline">
+                  Not OK
+                  <input type="radio" class="form-check-inline form-control" name="AlarmTripchecked">
+                </label>
+              </div>
+          </form>
         </div>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+            <div class="checkgroup">
+                        <h3>Testing The Relief/vent</h3>
+            </div>
+            <form class="form-horizontal">
+              <div class="form-group">
+                  <label class="radio-inline">
+                    OK
+                    <input type="radio" class="form-check-inline form-control" name="ValvesOpenClosechecked">
+                  </label>
+                  <label  class="radio-inline">
+                    Not OK
+                    <input type="radio" class="form-check-inline form-control" name="ValvesOpenClosechecked">
+                  </label>
+                </div>
+            </form>
+          </div>
+        <div class="col-md-12 col-xl-4 col-lg-6 text-center checkfield">
+            <div class="checkgroup">
+                      <h3>Checking oil level indicator of conservators</h3>
+                      <h3>(Main/Tap Changer)</h3>
+              </div>
+              <form class="form-horizontal">
+                  <h5>Glass</h5>
+                  <div class="form-group">
+                      <label class="radio-inline">
+                        OK
+                        <input type="radio" class="form-check-inline form-control" name="Glasschecked">
+                      </label>
+                      <label  class="radio-inline">
+                        Not OK
+                        <input type="radio" class="form-check-inline form-control" name="Glasschecked">
+                      </label>
+                    </div>
+                  <h5>Gland</h5>
+                  <div class="form-group">
+                      <label class="radio-inline">
+                        OK
+                        <input type="radio" class="form-check-inline form-control" name="Glandchecked">
+                      </label>
+                      <label  class="radio-inline">
+                        Not OK
+                        <input type="radio" class="form-check-inline form-control" name="Glandchecked">
+                      </label>
+                    </div>
+                    <h5>Wire Connection</h5>
+                    <div class="form-group">
+                        <label class="radio-inline">
+                          OK
+                          <input type="radio" class="form-check-inline form-control" name="WireConnectionchecked">
+                        </label>
+                        <label  class="radio-inline">
+                          Not OK
+                          <input type="radio" class="form-check-inline form-control" name="WireConnectionchecked">
+                        </label>
+                      </div>
+                    <h5>Alarm</h5>
+                    <div class="form-group">
+                        <label class="radio-inline">
+                          OK
+                          <input type="radio" class="form-check-inline form-control" name="Alarmchecked">
+                        </label>
+                        <label  class="radio-inline">
+                          Not OK
+                          <input type="radio" class="form-check-inline form-control" name="Alarmchecked">
+                        </label>
+                      </div>
+                </form>
 
+        </div>
+        <div class="col-md-12 col-xl-4 col-lg-6 checkfield">
+            <div class="checkgroup">
+                      <h3>Winding and oil Thermometers</h3>
+              </div>
+              <h4>Checking</h4>
+              
+              <form class="form-horizontal">
+
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-4 pt-0 checkitemtitle">Sensors:</legend>
+                      <div class="col-sm-8">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="Sensorschecked" id="SensorscheckedOK" value="OK" checked>
+                          <label class="form-check-label" for="SensorscheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="Sensorschecked" id="SensorscheckedNotOK" value="NotOK">
+                          <label class="form-check-label" for="SensorscheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-4 pt-0 checkitemtitle">Oil Pockets:</legend>
+                      <div class="col-sm-8">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="OilPocketschecked" id="OilPocketscheckedOK" value="OK"
+                            checked>
+                          <label class="form-check-label" for="OilPocketscheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="OilPocketschecked" id="OilPocketscheckedNotOK" value="NotOK">
+                          <label class="form-check-label" for="OilPocketscheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-4 pt-0 checkitemtitle">Glass:</legend>
+                      <div class="col-sm-8">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedOK" value="OK" checked>
+                          <label class="form-check-label" for="GlasscheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedNotOK" value="NotOK">
+                          <label class="form-check-label" for="GlasscheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-4 pt-0 checkitemtitle">Cleaning:</legend>
+                      <div class="col-sm-8">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="Cleaningchecked" id="CleaningcheckedOK" value="OK" checked>
+                          <label class="form-check-label" for="CleaningcheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="Cleaningchecked" id="CleaningcheckedNotOK" value="NotOK">
+                          <label class="form-check-label" for="CleaningcheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              <h4>Setting</h4>
+              <form class="form-horizontal">
+                  <h5>Maximum Pointer Oil</h5>
+                  <div class="form-group">
+                      <label>
+                        <input type="number" class="form-control">
+                      </label>
+                    </div>
+                  <h5>Oil Pockets</h5>
+                  <div class="form-group">
+                      <label class="radio-inline">
+                        OK
+                        <input type="radio" class="form-check-inline form-control" name="OilPocketschecked">
+                      </label>
+                      <label  class="radio-inline">
+                        Not OK
+                        <input type="radio" class="form-check-inline form-control" name="OilPocketschecked">
+                      </label>
+                    </div>
+                    <h5>Glass</h5>
+                    <div class="form-group">
+                        <label class="radio-inline">
+                          OK
+                          <input type="radio" class="form-check-inline form-control" name="Glasschecked">
+                        </label>
+                        <label  class="radio-inline">
+                          Not OK
+                          <input type="radio" class="form-check-inline form-control" name="Glasschecked">
+                        </label>
+                      </div>
+                    <h5>Cleaning</h5>
+                    <div class="form-group">
+                        <label class="radio-inline">
+                          OK
+                          <input type="radio" class="form-check-inline form-control" name="Cleaningchecked">
+                        </label>
+                        <label  class="radio-inline">
+                          Not OK
+                          <input type="radio" class="form-check-inline form-control" name="Cleaningchecked">
+                        </label>
+                      </div>
+                </form>
+
+        </div>
 
       </div>
 

@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="form.css">
+
+
+  <title>PM Forms</title>
+</head>
+
+<body>
+  <div id="titlebar">
+    <h1>Tap Changer Service
+    </h1>
+    <h1>
+      سرویس تپ چنجر
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-xl-2" id="specbar">
+      <h2>Transformer Specs</h2>
+      <ul>
+        <li>Substation:</li>
+        <li>Transformer No:</li>
+        <li>Type:</li>
+        <li>Serial Number:</li>
+        <li>Motor Drive Type:</li>
+
+      </ul>
+    </div>
+
+    <div class="col-md-6 col-xl-10">
+      <div class="row">
+
+        <div class="col-md-12 col-xl-4 col-lg-6 checkfield">
+          <div class="checkgroup">
+            <h3>On Load Tap Changer</h3>
+          </div>
+          <form class="form-horizontal">
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Cleaning The Box:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="CleaningtheBoxchecked" id="CleaningtheBoxcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="CleaningtheBoxcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="CleaningtheBoxchecked" id="CleaningtheBoxcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="CleaningtheBoxcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Wires Connection:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Wireconnectionchecked" id="WireconnectioncheckedOK"
+                      value="OK" checked>
+                    <label class="form-check-label" for="WireconnectioncheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Wireconnectionchecked" id="WireconnectioncheckedNotOK"
+                      value="NotOK">
+                    <label class="form-check-label" for="WireconnectioncheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Contactors and Limit and Auxilary Switches:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="ContactorscheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="ContactorscheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Gearing:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Gearingchecked" id="GearingcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="GearingcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Gearingchecked" id="GearingcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="GearingcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">V-Belt:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="V-Beltchecked" id="V-BeltcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="V-BeltcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="V-Beltchecked" id="V-BeltcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="V-BeltcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Gearing Oil Level:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="GearingOilLevelchecked" id="GearingOilLevelcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="GearingOilLevelcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="GearingOilLevelchecked" id="GearingOilLevelcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="GearingOilLevelcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Lubrication:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Lubricationchecked" id="LubricationcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="LubricationcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Lubricationchecked" id="LubricationcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="LubricationcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Illumination:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Illuminationchecked" id="IlluminationcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="IlluminationcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Illuminationchecked" id="IlluminationcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="IlluminationcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Heater:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Heaterchecked" id="HeatercheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="HeatercheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Heaterchecked" id="HeatercheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="HeatercheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Door Lock:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="DoorLockchecked" id="DoorLockcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="DoorLockcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="DoorLockchecked" id="DoorLockcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="DoorLockcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">SilicaGel:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="SilicaGelchecked" id="SilicaGelcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="SilicaGelcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="SilicaGelchecked" id="SilicaGelcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="SilicaGelcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="form-group row">
+              <label for="inputMotorCurrentMin" class="col-sm-7 col-form-label checkitemtitle">Motor Current (min)</label>
+              <div class="col-sm-5">
+                <input type="number" class="form-control" id="inputMotorCurrentMin" placeholder="Motor Current (min)">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="inputMotorCurrentMax" class="col-sm-7 col-form-label checkitemtitle">Motor Current (max)</label>
+              <div class="col-sm-5">
+                <input type="number" class="form-control" id="inputMotorCurrentMax" placeholder="Motor Current (max)">
+              </div>
+            </div>
+
+
+            <div class="form-group row">
+              <label for="inputOperatingTime" class="col-sm-7 col-form-label checkitemtitle">Operating Time</label>
+              <div class="col-sm-5">
+                <input type="number" class="form-control" id="inputOperatingTime" placeholder="Operating Time">
+              </div>
+            </div>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Manual Operation:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ManualOperationchecked" id="ManualOperationcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="ManualOperationcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ManualOperationchecked" id="ManualOperationcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="ManualOperationcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Electrical Operation(L/R):</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ElectricalOperationchecked" id="ElectricalOperationcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="ElectricalOperationcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ElectricalOperationchecked" id="ElectricalOperationcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="ElectricalOperationcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Testing the Pressure Relay:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="TestPressureRelaychecked" id="TestPressureRelaycheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="TestPressureRelaycheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="TestPressureRelaychecked" id="TestPressureRelaycheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="TestPressureRelaycheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="form-group row">
+              <label for="inputCounter" class="col-sm-7 col-form-label checkitemtitle">Counter</label>
+              <div class="col-sm-5">
+                <input type="number" class="form-control" id="inputCounter" placeholder="Counter">
+              </div>
+            </div>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Testing the Buchholtz Relay(Jansen):</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="TestBuchholtzRelaychecked" id="TestBuchholtzRelaycheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="TestBuchholtzRelaycheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="TestBuchholtzRelaychecked" id="TestBuchholtzRelaycheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="TestBuchholtzRelaycheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+
+          </form>
+
+        </div>
+
+        <div class="col-md-12 col-xl-4 col-lg-6 checkfield">
+          <div class="checkgroup">
+            <h3>Off Load Tap Changer</h3>
+          </div>
+          <form class="form-horizontal">
+
+              <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Checking The InterLoack:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="InterLoackchecked" id="InterLoackcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="InterLoackcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="InterLoackchecked" id="InterLoackcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="InterLoackcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Checking The Signal:</legend>
+                <div class="col-sm-5">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="CheckingtheSignalchecked" id="CheckingtheSignalcheckedOK" value="OK"
+                      checked>
+                    <label class="form-check-label" for="CheckingtheSignalcheckedOK">
+                      OK
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="CheckingtheSignalchecked" id="CheckingtheSignalcheckedNotOK" value="NotOK">
+                    <label class="form-check-label" for="CheckingtheSignalcheckedNotOK">
+                      Not OK
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+          </form>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- <script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" -->
+  <!-- crossorigin="anonymous"></script> -->
+
+</body>
+
+
+</html>

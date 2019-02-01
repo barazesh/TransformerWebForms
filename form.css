@@ -12,17 +12,18 @@ h5{
     font-weight: bold;
 }
 #titlebar{
-    background-color: blueviolet;
+    background-color: lightsteelblue;
 }
 #specbar{
-    background-color: goldenrod;
+    background-color: lightgoldenrodyellow;
 }
 
 .checkfield{
-    background-color: lightcoral;
+    /* background-color: lightgrey; */
 }
 .checkgroup{
     background-color: coral;
+    text-align: center;
 }
 .checkitemtitle{
     font-size: 1.1em;

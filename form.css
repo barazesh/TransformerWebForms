@@ -22,10 +22,23 @@ h5{
     /* background-color: lightgrey; */
 }
 .checkgroup{
-    background-color: coral;
+    background-color: lightseagreen;
     text-align: center;
 }
 .checkitemtitle{
     font-size: 1.1em;
     font-weight: bold;
+}
+.pola{
+    background-color: lightblue;
+}
+.polb{
+    background-color: lightyellow;
+}
+.polc{
+    background-color: lightsalmon;
+}
+.header{
+    border-style: double;
+    border-color: black;
 }

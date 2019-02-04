@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="form.css">
+
+
+  <title>PM Forms</title>
+</head>
+
+<body>
+  <div id="titlebar">
+    <h1>400 kV Circuit Breaker Test & Service
+    </h1>
+    <h1>
+تست و سرویس بریکر 400 کیلوولت فنری    
+</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-xl-2" id="specbar">
+      <h2>Breaker Specs</h2>
+      <ul>
+        <li>Substation:</li>
+        <li>Type:</li>
+        <li>Rated Voltage:</li>
+        <li>Rated Current:</li>
+        <li>Rated Short Current:</li>
+        <li>Dispatching Code:</li>
+        <li>Line Name:</li>
+        <li>Serial Number:</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6 col-xl-10">
+      <div class="row">
+        <div class="col-6 offset-6">
+          <div class="row">
+          
+            <div class="col-4 pola text-center">
+              <h3>Pole A</h3>
+            </div>
+          
+            <div class="col-4 polb text-center">
+              <h3>Pole B</h3>
+            </div>
+          
+            <div class="col-4 polc text-center">
+              <h3>Pole C</h3>
+            </div>
+          </div>
+        </div>
+          
+          <div class="col-12 checkfield">
+            <div class="checkgroup">
+              <h3>Checking The Porcelain for Any Damage</h3>
+            </div>
+            <form class="form-horizontal">
+          
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-6 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend>
+                  <div class="col-2 pola text-center">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedOK" value="OK"
+                        checked>
+                      <label class="form-check-label" for="PolAPorcelaincheckedOK">
+                        OK
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedNotOK" value="NotOK">
+                      <label class="form-check-label" for="PolAPorcelaincheckedNotOK">
+                        Not OK
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-2 polb text-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedOK" value="OK"
+                          checked>
+                        <label class="form-check-label" for="PolBPorcelaincheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedNotOK" value="NotOK">
+                        <label class="form-check-label" for="PolBPorcelaincheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-2 polc text-center">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedOK" value="OK"
+                            checked>
+                          <label class="form-check-label" for="PolCPorcelaincheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedNotOK" value="NotOK">
+                          <label class="form-check-label" for="PolCPorcelaincheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+
+                </div>
+              </fieldset>
+          
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Correct Rotating:</legend>
+                  <div class="col-sm-5">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="CorrectRotatingchecked" id="CorrectRotatingcheckedOK"
+                        value="OK" checked>
+                      <label class="form-check-label" for="CorrectRotatingcheckedOK">
+                        OK
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="CorrectRotatingchecked" id="CorrectRotatingcheckedNotOK"
+                        value="NotOK">
+                      <label class="form-check-label" for="CorrectRotatingcheckedNotOK">
+                        Not OK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+          
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Sound or Unbalance:</legend>
+                  <div class="col-sm-5">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="SoundorUnbalancechecked" id="SoundorUnbalancecheckedOK"
+                        value="OK" checked>
+                      <label class="form-check-label" for="SoundorUnbalancecheckedOK">
+                        OK
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="SoundorUnbalancechecked" id="SoundorUnbalancecheckedNotOK"
+                        value="NotOK">
+                      <label class="form-check-label" for="SoundorUnbalancecheckedNotOK">
+                        Not OK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+          
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Contactors:</legend>
+                  <div class="col-sm-5">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedOK" value="OK"
+                        checked>
+                      <label class="form-check-label" for="ContactorscheckedOK">
+                        OK
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedNotOK" value="NotOK">
+                      <label class="form-check-label" for="ContactorscheckedNotOK">
+                        Not OK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+          
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Overload Relay:</legend>
+                  <div class="col-sm-5">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedOK" value="OK"
+                        checked>
+                      <label class="form-check-label" for="OverloadRelaycheckedOK">
+                        OK
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedNotOK"
+                        value="NotOK">
+                      <label class="form-check-label" for="OverloadRelaycheckedNotOK">
+                        Not OK
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+          
+              <form action="">
+                <div class="form-group row">
+                  <label for="inputFansCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Fans Current
+                    Measurement:</label>
+                  <div class="col-sm-5">
+                    <input type="number" class="form-control" id="inputFansCurrentMeasurement" placeholder="Fans Current Measurement">
+                  </div>
+                </div>
+          
+                <div class="form-group row">
+                  <label for="inputOilPumpsCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Oil Pumps Current
+                    Measurement:</label>
+                  <div class="col-sm-5">
+                    <input type="number" class="form-control" id="inputOilPumpsCurrentMeasurement" placeholder="Oil Pumps Current Measurement">
+                  </div>
+                </div>
+          
+              </form>
+          
+          </div>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- <script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" -->
+  <!-- crossorigin="anonymous"></script> -->
+
+</body>
+
+
+</html>

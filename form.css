@@ -20,11 +20,13 @@ h5{
 
 .checkfield{
     /* background-color: lightgrey; */
+    border-style: solid;
+    
 }
-.checkgroup{
+.checkgrouptitle{
     background-color: lightseagreen;
     text-align: center;
-}
+    vertical-align: middle;}
 .checkitemtitle{
     font-size: 1.1em;
     font-weight: bold;

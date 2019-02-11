@@ -18,7 +18,7 @@ h5{
     background-color: lightgoldenrodyellow;
 }
 
-.checkfield{
+.checkgroup{
     /* background-color: lightgrey; */
     border-style: solid;
     
@@ -26,7 +26,8 @@ h5{
 .checkgrouptitle{
     background-color: lightseagreen;
     text-align: center;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
     .checkgroupsubtitle{
         background-color: lightseagreen;
         writing-mode: vertical-lr ;

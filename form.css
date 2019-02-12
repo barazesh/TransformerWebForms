@@ -20,54 +20,112 @@ h5{
 
 .checkgroup{
     /* background-color: lightgrey; */
-    /* border-style: solid; */
-    padding: 0;
-    
+    border-style: solid;
+    margin: 5px 0;
 }
-.checkgrouptitle{
-    background-color: lightseagreen;
+.checkgrouptitlefull{
+    /* background-color: lightseagreen; */
     text-align: center;
     vertical-align: middle;
     width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.checkgrouptitle{
+    /* background-color: lightseagreen; */
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    height: 100%;
     display: inline-block;
     margin: 0;
 }
     .checkgroupsubtitle{
-        background-color: lightseagreen;
+        /* background-color: lightseagreen; */
         writing-mode: vertical-lr ;
    }
 
-   fieldset{
-       background-color: blue;
+   .subgroupmany{
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+   }
+   .subgroup1{
     text-align: center;
     vertical-align: middle;
     width: 60%;
     display: inline-block;
     margin: 0;
    }
+
 .checkitemtitle{
+    width: 25%;
+    float: left;
+    /* display: inline-block; */
     font-size: 1.1em;
     font-weight: bold;
 }
 .pola{
     background-color: lightblue;
     display: inline-block;
-    width: 33%;
+    width: calc(100%/3);
+    padding: 10px;
     margin: 0;
 }
 .polb{
     background-color: lightyellow;
     display: inline-block;
-    width: 33%;
+    width: calc(100%/3);
+    padding: 10px;
     margin: 0;
 }
 .polc{
     background-color: lightsalmon;
     display: inline-block;
-    width: 33%;
+    width: calc(100%/3);
+    padding: 10px;
     margin: 0;
 }
+
+.subgroupmany .pola{
+    width: calc(75%/3);
+    padding: 10px;
+
+   }
+
+   .subgroupmany .polb{
+    width: calc(75%/3);
+    padding: 10px;
+
+   }
+
+   .subgroupmany .polc{
+    width: calc(75%/3);
+    padding: 10px;
+
+   }
+
+
 .header{
     border-style: double;
     border-color: black;
+}
+#polsrow{
+    position: relative;
+    left: 40%;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+    margin: 0;
+}
+
+fieldset.form-group{
+    border-style: solid;
+    border-width: 1px;
+    margin: 1px 0;
 }

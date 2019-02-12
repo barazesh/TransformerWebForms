@@ -183,12 +183,134 @@
 
   </div>
 
-    <form class="form-horizontal">
+
+  </div>
+
+  
+  <form class="">
+
+    <section class="checkgroup">
+            <div class="checkgrouptitle">
+                <h3>Checking The Porcelain for Any Damage</h3>
+              </div><!--
+              
+            --><fieldset class="form-group">
+                    <!-- <legend class="col-form-label col-5 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend> -->
+                    <div class="pola text-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedOK"
+                          value="OK" checked>
+                        <label class="form-check-label" for="PolAPorcelaincheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedNotOK"
+                          value="NotOK">
+                        <label class="form-check-label" for="PolAPorcelaincheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div><!--
+
+                    --><div class="polb text-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedOK"
+                          value="OK" checked>
+                        <label class="form-check-label" for="PolBPorcelaincheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedNotOK"
+                          value="NotOK">
+                        <label class="form-check-label" for="PolBPorcelaincheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div><!--
+        
+                    --><div class="polc text-center">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedOK"
+                          value="OK" checked>
+                        <label class="form-check-label" for="PolCPorcelaincheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedNotOK"
+                          value="NotOK">
+                        <label class="form-check-label" for="PolCPorcelaincheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div>
+        
+                </fieldset>
+
+    </section>
+
+    <section class="checkgroup">
+        <div class="checkgrouptitle">
+          <h3>Controlling The SF6 Pressure</h3>
+        </div><!--
+    
+        --><fieldset class="form-group">
+          <!-- <legend class="col-form-label col-5 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend>    
+            <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol A</label>
+            --><div class="pola">
+              <input type="number" class="form-control pola" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
+            </div><!--
+    
+            <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol B</label>
+            --><div class="polb">
+              <input type="number" class="form-control polb" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
+            </div><!--
+    
+            <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol C</label>
+            --><div class="polc">
+              <input type="number" class="form-control polc" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
+            </div>
+    
+        </fieldset>
+        </section>
+
+    <section class="checkgroup">
+        <div class="row">
+          <div class="col-4 checkgrouptitle">
+            <h3>Controlling The SF6 Temperature</h3>
+          </div>
+      
+          <fieldset class="col-8 form-group">
+            <!-- <legend class="col-form-label col-5 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend> -->
+      
+            <div class="row">
+              <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol A</label>
+              <div class="col-4 pola">
+                <input type="number" class="form-control pola" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
+              </div><!--
+      
+              --><label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol B</label>
+              <div class="col-4 polb">
+                <input type="number" class="form-control polb" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
+              </div><!--
+      
+              --><label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol C</label>
+              <div class="col-4 polc">
+                <input type="number" class="form-control polc" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
+              </div> 
+      
+            </div>
+          </fieldset>
+      
+        </div>
+      </section>
 
       <section class="checkgroup">
           <div class="row">
               <div class="col-4 checkgrouptitle">
-                  <h3>Checking The Porcelain for Any Damage</h3>
+                  <h3>Checking The SF6 Leakage</h3>
                 </div>
 
                 <fieldset class="col-8 form-group">
@@ -251,322 +373,186 @@
           </div>
       </section>
 
+      
       <section class="checkgroup">
-        <div class="row">
-          <div class="col-4 checkgrouptitle">
-            <h3>Controlling The SF6 Pressure</h3>
+          <div class="row">
+              <div class="col-2 checkgrouptitle">
+                  <h3>Checking The SF6 Pressure Switch</h3>
+                </div>
+
+                <fieldset class="form-group">
+                      <legend class="col-form-label col-2 pt-0 checkitemtitle">Loss of SF6 Alarm</legend>
+                      <div class="col-3 pola text-center">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedOK"
+                            value="OK" checked>
+                          <label class="form-check-label" for="PolAPorcelaincheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedNotOK"
+                            value="NotOK">
+                          <label class="form-check-label" for="PolAPorcelaincheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+          
+                      <div class="col-3 polb text-center">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedOK"
+                            value="OK" checked>
+                          <label class="form-check-label" for="PolBPorcelaincheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedNotOK"
+                            value="NotOK">
+                          <label class="form-check-label" for="PolBPorcelaincheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+          
+                      <div class="col-3 polc text-center">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedOK"
+                            value="OK" checked>
+                          <label class="form-check-label" for="PolCPorcelaincheckedOK">
+                            OK
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedNotOK"
+                            value="NotOK">
+                          <label class="form-check-label" for="PolCPorcelaincheckedNotOK">
+                            Not OK
+                          </label>
+                        </div>
+                      </div>
+          
+                  </fieldset>
+
           </div>
-      
-          <fieldset class="col-8 form-group">
-            <!-- <legend class="col-form-label col-5 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend> -->
-      
-            <div class="row">
-              <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol A</label>
-              <div class="col-4 pola">
-                <input type="number" class="form-control pola" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
-              </div>
-      
-              <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol B</label>
-              <div class="col-4 polb">
-                <input type="number" class="form-control polb" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
-              </div>
-      
-              <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol C</label>
-              <div class="col-4 polc">
-                <input type="number" class="form-control polc" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
-              </div>
-      
-      
-      
-      
-      
-      
-      
-            </div>
-          </fieldset>
-      
-        </div>
       </section>
 
-      <section class="checkgroup">
-          <div class="row">
-            <div class="col-4 checkgrouptitle">
-              <h3>Controlling The SF6 Temperature</h3>
+
+
+
+
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Correct Rotating:</legend>
+          <div class="col-sm-5">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CorrectRotatingchecked" id="CorrectRotatingcheckedOK"
+                value="OK" checked>
+              <label class="form-check-label" for="CorrectRotatingcheckedOK">
+                OK
+              </label>
             </div>
-        
-            <fieldset class="col-8 form-group">
-              <!-- <legend class="col-form-label col-5 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend> -->
-        
-              <div class="row">
-                <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol A</label>
-                <div class="col-4 pola">
-                  <input type="number" class="form-control pola" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
-                </div>
-        
-                <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol B</label>
-                <div class="col-4 polb">
-                  <input type="number" class="form-control polb" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
-                </div>
-        
-                <label for="inputFansCurrentMeasurement" class="sr-only col-form-label checkitemtitle">Pol C</label>
-                <div class="col-4 polc">
-                  <input type="number" class="form-control polc" id="inputFansCurrentMeasurement" placeholder="SF6 Pressure">
-                </div> 
-        
-              </div>
-            </fieldset>
-        
-          </div>
-        </section>
-
-        <section class="checkgroup">
-            <div class="row">
-                <div class="col-4 checkgrouptitle">
-                    <h3>Checking The SF6 Leakage</h3>
-                  </div>
-  
-                  <fieldset class="col-8 form-group">
-                      <div class="row">
-                        <!-- <legend class="col-form-label col-5 pt-0 checkitemtitle">Checking The Porcelain for Any Damage:</legend> -->
-                        <div class="col-4 pola text-center">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedOK"
-                              value="OK" checked>
-                            <label class="form-check-label" for="PolAPorcelaincheckedOK">
-                              OK
-                            </label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedNotOK"
-                              value="NotOK">
-                            <label class="form-check-label" for="PolAPorcelaincheckedNotOK">
-                              Not OK
-                            </label>
-                          </div>
-                        </div>
-            
-                        <div class="col-4 polb text-center">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedOK"
-                              value="OK" checked>
-                            <label class="form-check-label" for="PolBPorcelaincheckedOK">
-                              OK
-                            </label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedNotOK"
-                              value="NotOK">
-                            <label class="form-check-label" for="PolBPorcelaincheckedNotOK">
-                              Not OK
-                            </label>
-                          </div>
-                        </div>
-            
-                        <div class="col-4 polc text-center">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedOK"
-                              value="OK" checked>
-                            <label class="form-check-label" for="PolCPorcelaincheckedOK">
-                              OK
-                            </label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedNotOK"
-                              value="NotOK">
-                            <label class="form-check-label" for="PolCPorcelaincheckedNotOK">
-                              Not OK
-                            </label>
-                          </div>
-                        </div>
-            
-                      </div>
-                    </fieldset>
-  
-            </div>
-        </section>
-
-        
-        <section class="checkgroup">
-            <div class="row">
-                <div class="col-2 checkgrouptitle">
-                    <h3>Checking The SF6 Pressure Switch</h3>
-                  </div>
-  
-                  <fieldset class="form-group">
-                        <legend class="col-form-label col-2 pt-0 checkitemtitle">Loss of SF6 Alarm</legend>
-                        <div class="col-3 pola text-center">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedOK"
-                              value="OK" checked>
-                            <label class="form-check-label" for="PolAPorcelaincheckedOK">
-                              OK
-                            </label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolAPorcelainchecked" id="PolAPorcelaincheckedNotOK"
-                              value="NotOK">
-                            <label class="form-check-label" for="PolAPorcelaincheckedNotOK">
-                              Not OK
-                            </label>
-                          </div>
-                        </div>
-            
-                        <div class="col-3 polb text-center">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedOK"
-                              value="OK" checked>
-                            <label class="form-check-label" for="PolBPorcelaincheckedOK">
-                              OK
-                            </label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolBPorcelainchecked" id="PolBPorcelaincheckedNotOK"
-                              value="NotOK">
-                            <label class="form-check-label" for="PolBPorcelaincheckedNotOK">
-                              Not OK
-                            </label>
-                          </div>
-                        </div>
-            
-                        <div class="col-3 polc text-center">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedOK"
-                              value="OK" checked>
-                            <label class="form-check-label" for="PolCPorcelaincheckedOK">
-                              OK
-                            </label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="PolCPorcelainchecked" id="PolCPorcelaincheckedNotOK"
-                              value="NotOK">
-                            <label class="form-check-label" for="PolCPorcelaincheckedNotOK">
-                              Not OK
-                            </label>
-                          </div>
-                        </div>
-            
-                    </fieldset>
-  
-            </div>
-        </section>
-
-
-
-
-
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Correct Rotating:</legend>
-            <div class="col-sm-5">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="CorrectRotatingchecked" id="CorrectRotatingcheckedOK"
-                  value="OK" checked>
-                <label class="form-check-label" for="CorrectRotatingcheckedOK">
-                  OK
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="CorrectRotatingchecked"
-                  id="CorrectRotatingcheckedNotOK" value="NotOK">
-                <label class="form-check-label" for="CorrectRotatingcheckedNotOK">
-                  Not OK
-                </label>
-              </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="CorrectRotatingchecked"
+                id="CorrectRotatingcheckedNotOK" value="NotOK">
+              <label class="form-check-label" for="CorrectRotatingcheckedNotOK">
+                Not OK
+              </label>
             </div>
           </div>
-        </fieldset>
+        </div>
+      </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Sound or Unbalance:</legend>
-            <div class="col-sm-5">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="SoundorUnbalancechecked"
-                  id="SoundorUnbalancecheckedOK" value="OK" checked>
-                <label class="form-check-label" for="SoundorUnbalancecheckedOK">
-                  OK
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="SoundorUnbalancechecked"
-                  id="SoundorUnbalancecheckedNotOK" value="NotOK">
-                <label class="form-check-label" for="SoundorUnbalancecheckedNotOK">
-                  Not OK
-                </label>
-              </div>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Sound or Unbalance:</legend>
+          <div class="col-sm-5">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="SoundorUnbalancechecked"
+                id="SoundorUnbalancecheckedOK" value="OK" checked>
+              <label class="form-check-label" for="SoundorUnbalancecheckedOK">
+                OK
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="SoundorUnbalancechecked"
+                id="SoundorUnbalancecheckedNotOK" value="NotOK">
+              <label class="form-check-label" for="SoundorUnbalancecheckedNotOK">
+                Not OK
+              </label>
             </div>
           </div>
-        </fieldset>
+        </div>
+      </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Contactors:</legend>
-            <div class="col-sm-5">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedOK"
-                  value="OK" checked>
-                <label class="form-check-label" for="ContactorscheckedOK">
-                  OK
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedNotOK"
-                  value="NotOK">
-                <label class="form-check-label" for="ContactorscheckedNotOK">
-                  Not OK
-                </label>
-              </div>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Contactors:</legend>
+          <div class="col-sm-5">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedOK"
+                value="OK" checked>
+              <label class="form-check-label" for="ContactorscheckedOK">
+                OK
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedNotOK"
+                value="NotOK">
+              <label class="form-check-label" for="ContactorscheckedNotOK">
+                Not OK
+              </label>
             </div>
           </div>
-        </fieldset>
+        </div>
+      </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Overload Relay:</legend>
-            <div class="col-sm-5">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedOK"
-                  value="OK" checked>
-                <label class="form-check-label" for="OverloadRelaycheckedOK">
-                  OK
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedNotOK"
-                  value="NotOK">
-                <label class="form-check-label" for="OverloadRelaycheckedNotOK">
-                  Not OK
-                </label>
-              </div>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Overload Relay:</legend>
+          <div class="col-sm-5">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedOK"
+                value="OK" checked>
+              <label class="form-check-label" for="OverloadRelaycheckedOK">
+                OK
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedNotOK"
+                value="NotOK">
+              <label class="form-check-label" for="OverloadRelaycheckedNotOK">
+                Not OK
+              </label>
             </div>
           </div>
-        </fieldset>
+        </div>
+      </fieldset>
 
-        <form action="">
-          <div class="form-group row">
-            <label for="inputFansCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Fans Current
-              Measurement:</label>
-            <div class="col-sm-5">
-              <input type="number" class="form-control" id="inputFansCurrentMeasurement"
-                placeholder="Fans Current Measurement">
-            </div>
+      <form action="">
+        <div class="form-group row">
+          <label for="inputFansCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Fans Current
+            Measurement:</label>
+          <div class="col-sm-5">
+            <input type="number" class="form-control" id="inputFansCurrentMeasurement"
+              placeholder="Fans Current Measurement">
           </div>
+        </div>
 
-          <div class="form-group row">
-            <label for="inputOilPumpsCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Oil Pumps
-              Current
-              Measurement:</label>
-            <div class="col-sm-5">
-              <input type="number" class="form-control" id="inputOilPumpsCurrentMeasurement"
-                placeholder="Oil Pumps Current Measurement">
-            </div>
+        <div class="form-group row">
+          <label for="inputOilPumpsCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Oil Pumps
+            Current
+            Measurement:</label>
+          <div class="col-sm-5">
+            <input type="number" class="form-control" id="inputOilPumpsCurrentMeasurement"
+              placeholder="Oil Pumps Current Measurement">
           </div>
+        </div>
 
-        </form>
+      </form>
 
-    </form>
-
-  </div>
+  </form>
 
 
 

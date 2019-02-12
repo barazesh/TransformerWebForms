@@ -20,17 +20,30 @@ h5{
 
 .checkgroup{
     /* background-color: lightgrey; */
-    border-style: solid;
+    /* border-style: solid; */
+    padding: 0;
     
 }
 .checkgrouptitle{
     background-color: lightseagreen;
     text-align: center;
     vertical-align: middle;
+    width: 40%;
+    display: inline-block;
+    margin: 0;
 }
     .checkgroupsubtitle{
         background-color: lightseagreen;
         writing-mode: vertical-lr ;
+   }
+
+   fieldset{
+       background-color: blue;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+    margin: 0;
    }
 .checkitemtitle{
     font-size: 1.1em;
@@ -38,12 +51,21 @@ h5{
 }
 .pola{
     background-color: lightblue;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
 }
 .polb{
     background-color: lightyellow;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
 }
 .polc{
     background-color: lightsalmon;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
 }
 .header{
     border-style: double;

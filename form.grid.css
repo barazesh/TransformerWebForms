@@ -1,0 +1,157 @@
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h5{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+#titlebar{
+    background-color: lightsteelblue;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr) 2fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "formspec companyname companyname brand"
+     "devicespec formname devicespec2 devicespec2";
+}
+#form-spec{
+    grid-area: formspec;
+}
+
+#company-name{
+    grid-area: companyname;
+}
+
+#device-spec2{
+    grid-area: devicespec2;
+}
+
+.formlayout{
+    display: grid;
+    grid
+}
+
+
+#specbar{
+    background-color: lightgoldenrodyellow;
+}
+
+.checkgroup{
+    /* background-color: lightgrey; */
+    border-style: solid;
+    margin: 5px 0;
+}
+.checkgrouptitlefull{
+    /* background-color: lightseagreen; */
+    text-align: center;
+    vertical-align: middle;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.checkgrouptitle{
+    /* background-color: lightseagreen; */
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+}
+    .checkgroupsubtitle{
+        /* background-color: lightseagreen; */
+        writing-mode: vertical-lr ;
+   }
+
+   .subgroupmany{
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+   }
+   .subgroup1{
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+    margin: 0;
+   }
+
+.checkitemtitle{
+    width: 25%;
+    float: left;
+    /* display: inline-block; */
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.pola{
+    background-color: lightblue;
+    display: inline-block;
+    width: calc(100%/3);
+    padding: 10px;
+    margin: 0;
+}
+.polb{
+    background-color: lightyellow;
+    display: inline-block;
+    width: calc(100%/3);
+    padding: 10px;
+    margin: 0;
+}
+.polc{
+    background-color: lightsalmon;
+    display: inline-block;
+    width: calc(100%/3);
+    padding: 10px;
+    margin: 0;
+}
+
+.subgroupmany .pola{
+    width: calc(75%/3);
+    padding: 10px;
+
+   }
+
+   .subgroupmany .polb{
+    width: calc(75%/3);
+    padding: 10px;
+
+   }
+
+   .subgroupmany .polc{
+    width: calc(75%/3);
+    padding: 10px;
+
+   }
+
+
+.header{
+    border-style: double;
+    border-color: black;
+}
+#polsrow{
+    position: relative;
+    left: 40%;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+    margin: 0;
+}
+
+fieldset.form-group{
+    border-style: solid;
+    border-width: 1px;
+    margin: 1px 0;
+}

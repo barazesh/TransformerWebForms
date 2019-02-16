@@ -22,7 +22,7 @@
 <body>
  
   <div id="titlebar">
-      <div class="form_spec">
+      <div class="form_spec header">
         <div>
         <span>
             830Q-F60.2
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-    <div class="text-center" id="company-name">
+    <div class="text-center header" id="company-name">
       <h1>
         شرکت برق منطقه ای خراسان
       </h1>
@@ -124,9 +124,8 @@
 
   </div>
 
-  <div class="formlayout">
   <div class="row" id="specbar">
-    <div class="col-8">
+    <div>
       <h6>
         Transformer No.
       </h6>
@@ -137,7 +136,7 @@
       </h6>
     </div>
 
-    <div class="col-8">
+    <div>
       <h6>
         Serial Number
       </h6>
@@ -148,18 +147,17 @@
       </h6>
     </div>
   </div>
+  <form action="">
 
-    <div class="row align-items-start checkfield">
-      <div class="col-4 checkgrouptitle">
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Controlling Oil Leakage</h3>
       </div>
-      <div class="col-8">     
-      <form class="form-horizontal">
+      <div>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Valves:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Valves:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Valveschecked" id="ValvescheckedOK" value="OK"
                   checked>
@@ -174,13 +172,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Pipes:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Pipes:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Pipeschecked" id="PipescheckedOK" value="OK" checked>
                 <label class="form-check-label" for="PipescheckedOK">
@@ -194,13 +190,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Radiators:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Radiators:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Radiatorschecked" id="RadiatorscheckedOK" value="OK"
                   checked>
@@ -215,13 +209,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Bushing:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Bushing:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Bushingchecked" id="BushingcheckedOK" value="OK"
                   checked>
@@ -236,13 +228,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Buchholtz:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Buchholtz:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Buchholtzchecked" id="BuchholtzcheckedOK" value="OK"
                   checked>
@@ -257,13 +247,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">B.T.C.T:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">B.T.C.T:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="B.T.C.Tchecked" id="B.T.C.TcheckedOK" value="OK"
                   checked>
@@ -278,25 +266,19 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
-      </form>
-    </div>
+      </div>
 
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+    </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Checking the Oil Level</h3>
       </div>
-      <div class="col-8">
+      <div>
 
-     
-      <form class="form-horizontal">
-
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Bushing:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Bushing:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Bushingchecked" id="BushingcheckedOK" value="OK"
                   checked>
@@ -311,13 +293,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Main Conservator:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Main Conservator:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="MainConservatorchecked" id="MainConservatorcheckedOK"
                   value="OK" checked>
@@ -333,13 +313,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Tap Changer Conservator:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Tap Changer Conservator:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="TapChangerConservatorchecked" id="TapChangerConservatorcheckedOK"
                   value="OK" checked>
@@ -355,24 +333,19 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
-      </form>
     </div>
 
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+    </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Controlling The Connection</h3>
       </div>
-      <div class="col-8">
+      <div>
 
-      <form class="form-horizontal">
-
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">HV/LV:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">HV/LV:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="HV/LVchecked" id="HV/LVcheckedOK" value="OK" checked>
                 <label class="form-check-label" for="HV/LVcheckedOK">
@@ -386,13 +359,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">CT Wires:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">CT Wires:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="CTWireschecked" id="CTWirescheckedOK" value="OK"
                   checked>
@@ -407,13 +378,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Pipes:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Pipes:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Pipeschecked" id="PipescheckedOK" value="OK" checked>
                 <label class="form-check-label" for="PipescheckedOK">
@@ -427,22 +396,17 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
-      </form>
     </div>
-
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Controlling All Screws</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Controlling All Screws:</legend>
-            <div class="col-sm-5">
+      <div>
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Controlling All Screws:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Allscrewschecked" id="AllscrewscheckedOK" value="OK"
                   checked>
@@ -457,22 +421,18 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Controlling the valves to be close/open</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Controlling the valves to be close/open:</legend>
-            <div class="col-sm-5">
+      <div>
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Controlling the valves to be close/open:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="ValvesOpenClosechecked" id="ValvesOpenClosecheckedOK"
                   value="OK" checked>
@@ -488,22 +448,18 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Checking the earth Connection</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Tank:</legend>
-            <div class="col-sm-5">
+      <div>
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Tank:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Tankchecked" id="TankcheckedOK" value="OK" checked>
                 <label class="form-check-label" for="TankcheckedOK">
@@ -517,13 +473,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Top Cover:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Top Cover:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="TopCoverchecked" id="TopCovercheckedOK" value="OK"
                   checked>
@@ -538,13 +492,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Bushing:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Bushing:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Bushingchecked" id="BushingcheckedOK" value="OK"
                   checked>
@@ -559,13 +511,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">CT's Secondary:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">CT's Secondary:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="CTsSecondarychecked" id="CTsSecondarycheckedOK"
                   value="OK" checked>
@@ -581,23 +531,19 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Controlling the breather</h3>
         <h3>(Main/Tap changer)</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">SilicaGel:</legend>
-            <div class="col-sm-5">
+      <div>
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">SilicaGel:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="SilicaGelchecked" id="SilicaGelcheckedOK" value="OK"
                   checked>
@@ -612,13 +558,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Oil:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Oil:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Oilchecked" id="OilcheckedOK" value="OK" checked>
                 <label class="form-check-label" for="OilcheckedOK">
@@ -632,13 +576,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">O-Rings:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">O-Rings:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Oringschecked" id="OringscheckedOK" value="OK"
                   checked>
@@ -653,13 +595,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Glass:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Glass:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedOK" value="OK" checked>
                 <label class="form-check-label" for="GlasscheckedOK">
@@ -673,13 +613,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Pipe or Plastic Pipe:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Pipe or Plastic Pipe:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="PipeorPlasticPipechecked" id="PipeorPlasticPipecheckedOK"
                   value="OK" checked>
@@ -695,23 +633,19 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Checking & Testing the Buchholtz</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
+      <div>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Wire Connection:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Wire Connection:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="WireConnectionchecked" id="WireConnectioncheckedOK"
                   value="OK" checked>
@@ -727,13 +661,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Gland and Box Sealing:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Gland and Box Sealing:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="GlandandBoxSealingchecked" id="GlandandBoxSealingcheckedOK"
                   value="OK" checked>
@@ -749,13 +681,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Floats:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Floats:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Floatschecked" id="FloatscheckedOK" value="OK"
                   checked>
@@ -770,13 +700,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Mercury Contacts:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Mercury Contacts:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="MercuryContactschecked" id="MercuryContactscheckedOK"
                   value="OK" checked>
@@ -792,13 +720,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Alarm/Trip (by compressed air):</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Alarm/Trip (by compressed air):</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="AlarmTripchecked" id="AlarmTripcheckedOK" value="OK"
                   checked>
@@ -813,22 +739,18 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Testing The Relief/vent</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Testing The Relief/vent:</legend>
-            <div class="col-sm-5">
+      <div>
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Trip</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="TestingTheReliefventchecked" id="TestingTheReliefventcheckedOK"
                   value="OK" checked>
@@ -844,22 +766,18 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Checking oil level indicator of conservators</h3>
         <h3>(Main/Tap Changer)</h3>
       </div>
-      <div class="col-8">
-        <form class="form-horizontal">
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Glass:</legend>
-              <div class="col-sm-5">
+      <div>
+          <fieldset class="form-group checkitem">
+              <div class="checkitemtitle">Glass:</div>
+              <div class="checkitemfield">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedOK" value="OK" checked>
                   <label class="form-check-label" for="GlasscheckedOK">
@@ -873,13 +791,11 @@
                   </label>
                 </div>
               </div>
-            </div>
           </fieldset>
     
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Gland:</legend>
-              <div class="col-sm-5">
+          <fieldset class="form-group checkitem">
+              <div class="checkitemtitle">Gland:</div>
+              <div class="checkitemfield">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="Glandchecked" id="GlandcheckedOK" value="OK" checked>
                   <label class="form-check-label" for="GlandcheckedOK">
@@ -893,13 +809,11 @@
                   </label>
                 </div>
               </div>
-            </div>
           </fieldset>
     
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Wire Connection:</legend>
-              <div class="col-sm-5">
+          <fieldset class="form-group checkitem">
+              <div class="checkitemtitle">Wire Connection:</div>
+              <div class="checkitemfield">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="WireConnectionchecked" id="WireConnectioncheckedOK"
                     value="OK" checked>
@@ -915,13 +829,11 @@
                   </label>
                 </div>
               </div>
-            </div>
           </fieldset>
     
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Alarm:</legend>
-              <div class="col-sm-5">
+          <fieldset class="form-group checkitem">
+              <div class="checkitemtitle">Alarm:</div>
+              <div class="checkitemfield">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="Alarmchecked" id="AlarmcheckedOK" value="OK" checked>
                   <label class="form-check-label" for="AlarmcheckedOK">
@@ -935,199 +847,179 @@
                   </label>
                 </div>
               </div>
-            </div>
           </fieldset>
     
-        </form>
       </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-3 checkgrouptitle">
+    </section>
+    <section class="formsectionspecial">
+      <div class="formsectiontitle">
         <h3>Winding and oil Thermometers</h3>
       </div>
-      <div class="col-1">
-        <div class="row">
-          <div class="col-12  checkgroupsubtitle">
-              <h4>Checking</h4>
-          </div>
-          <div class="col-12  checkgroupsubtitle">
-            <h4>Setting</h4>
-          </div>
-        </div>
+      <div>
+      <div class="formsubsection">
+          <h4 class="formsubsectiontitle">Checking</h4>
+
+          <div>
+    
+                <fieldset class="form-group checkitem">
+                    <div class="checkitemtitle">Sensors:</div>
+                    <div class="checkitemfield">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Sensorschecked" id="SensorscheckedOK" value="OK"
+                          checked>
+                        <label class="form-check-label" for="SensorscheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Sensorschecked" id="SensorscheckedNotOK"
+                          value="NotOK">
+                        <label class="form-check-label" for="SensorscheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div>
+                </fieldset>
+      
+                <fieldset class="form-group checkitem">
+                    <div class="checkitemtitle">Oil Pockets:</div>
+                    <div class="checkitemfield">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="OilPocketschecked" id="OilPocketscheckedOK"
+                          value="OK" checked>
+                        <label class="form-check-label" for="OilPocketscheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="OilPocketschecked" id="OilPocketscheckedNotOK"
+                          value="NotOK">
+                        <label class="form-check-label" for="OilPocketscheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div>
+                </fieldset>
+      
+                <fieldset class="form-group checkitem">
+                    <div class="checkitemtitle">Glass:</div>
+                    <div class="checkitemfield">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedOK" value="OK"
+                          checked>
+                        <label class="form-check-label" for="GlasscheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedNotOK" value="NotOK">
+                        <label class="form-check-label" for="GlasscheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div>
+                </fieldset>
+      
+                <fieldset class="form-group checkitem">
+                    <div class="checkitemtitle">Cleaning:</div>
+                    <div class="checkitemfield">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Cleaningchecked" id="CleaningcheckedOK" value="OK"
+                          checked>
+                        <label class="form-check-label" for="CleaningcheckedOK">
+                          OK
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Cleaningchecked" id="CleaningcheckedNotOK"
+                          value="NotOK">
+                        <label class="form-check-label" for="CleaningcheckedNotOK">
+                          Not OK
+                        </label>
+                      </div>
+                    </div>
+                </fieldset>
+            </div>
+
       </div>
-      <div class="col-8">
-        <div class="row">
 
-          <div class="col-12">
-            <form class="form-horizontal">
-    
-              <fieldset class="form-group">
-                <div class="row">
-                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Sensors:</legend>
-                  <div class="col-sm-5">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Sensorschecked" id="SensorscheckedOK" value="OK"
-                        checked>
-                      <label class="form-check-label" for="SensorscheckedOK">
-                        OK
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Sensorschecked" id="SensorscheckedNotOK"
-                        value="NotOK">
-                      <label class="form-check-label" for="SensorscheckedNotOK">
-                        Not OK
-                      </label>
+      <div class="formsubsection">
+          <h4 class="formsubsectiontitle">Setting</h4>
+
+          <div>
+                  <div class="form-group checkitem">
+                    <label for="inputMaximumPointerOil" class="col-form-label checkitemtitle">Maximum Pointer
+                      Oil</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputMaximumPointerOil" placeholder="Maximum Pointer Oil">
                     </div>
                   </div>
-                </div>
-              </fieldset>
-    
-              <fieldset class="form-group">
-                <div class="row">
-                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Oil Pockets:</legend>
-                  <div class="col-sm-5">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="OilPocketschecked" id="OilPocketscheckedOK"
-                        value="OK" checked>
-                      <label class="form-check-label" for="OilPocketscheckedOK">
-                        OK
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="OilPocketschecked" id="OilPocketscheckedNotOK"
-                        value="NotOK">
-                      <label class="form-check-label" for="OilPocketscheckedNotOK">
-                        Not OK
-                      </label>
+        
+                  <div class="form-group checkitem">
+                    <label for="inputMaximumPointerWinding" class="col-form-label checkitemtitle">Maximum Pointer
+                      Winding</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputMaximumPointerWinding"
+                        placeholder="Maximum Pointer Winding">
                     </div>
                   </div>
-                </div>
-              </fieldset>
-    
-              <fieldset class="form-group">
-                <div class="row">
-                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Glass:</legend>
-                  <div class="col-sm-5">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedOK" value="OK"
-                        checked>
-                      <label class="form-check-label" for="GlasscheckedOK">
-                        OK
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Glasschecked" id="GlasscheckedNotOK" value="NotOK">
-                      <label class="form-check-label" for="GlasscheckedNotOK">
-                        Not OK
-                      </label>
+        
+        
+                  <div class="form-group checkitem">
+                    <label for="inputOilAlarm" class="col-form-label checkitemtitle">Oil Alarm</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputOilAlarm" placeholder="Oil Alarm">
                     </div>
                   </div>
-                </div>
-              </fieldset>
-    
-              <fieldset class="form-group">
-                <div class="row">
-                  <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Cleaning:</legend>
-                  <div class="col-sm-5">
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Cleaningchecked" id="CleaningcheckedOK" value="OK"
-                        checked>
-                      <label class="form-check-label" for="CleaningcheckedOK">
-                        OK
-                      </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="Cleaningchecked" id="CleaningcheckedNotOK"
-                        value="NotOK">
-                      <label class="form-check-label" for="CleaningcheckedNotOK">
-                        Not OK
-                      </label>
+        
+        
+                  <div class="form-group checkitem">
+                    <label for="inputOilTrip" class="col-form-label checkitemtitle">Oil Trip</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputOilTrip" placeholder="Oil Trip">
                     </div>
                   </div>
-                </div>
-              </fieldset>
-            </form>
+        
+        
+                  <div class="form-group checkitem">
+                    <label for="inputWindingAlarm" class="col-form-label checkitemtitle">Winding Alarm</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputWindingAlarm" placeholder="Winding Alarm">
+                    </div>
+                  </div>
+        
+        
+                  <div class="form-group checkitem">
+                    <label for="inputWindingTrip" class="col-form-label checkitemtitle">Winding Trip</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputWindingTrip" placeholder="Winding Trip">
+                    </div>
+                  </div>
+        
+        
+                  <div class="form-group checkitem">
+                    <label for="inputFansOilPumpsStart" class="col-form-label checkitemtitle">Fans & Oil Pumps
+                      Start</label>
+                    <div class="checkitemfield">
+                      <input type="number" class="form-control" id="inputFansOilPumpsStart"
+                        placeholder="Fans & Oil Pumps Start">
+                    </div>
+                  </div>
+        
           </div>
 
-          <div class="col-12">
-    
-            <form action="">
-              <div class="form-group row">
-                <label for="inputMaximumPointerOil" class="col-sm-7 col-form-label checkitemtitle">Maximum Pointer
-                  Oil</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputMaximumPointerOil" placeholder="Maximum Pointer Oil">
-                </div>
-              </div>
-    
-              <div class="form-group row">
-                <label for="inputMaximumPointerWinding" class="col-sm-7 col-form-label checkitemtitle">Maximum Pointer
-                  Winding</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputMaximumPointerWinding"
-                    placeholder="Maximum Pointer Winding">
-                </div>
-              </div>
-    
-    
-              <div class="form-group row">
-                <label for="inputOilAlarm" class="col-sm-7 col-form-label checkitemtitle">Oil Alarm</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputOilAlarm" placeholder="Oil Alarm">
-                </div>
-              </div>
-    
-    
-              <div class="form-group row">
-                <label for="inputOilTrip" class="col-sm-7 col-form-label checkitemtitle">Oil Trip</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputOilTrip" placeholder="Oil Trip">
-                </div>
-              </div>
-    
-    
-              <div class="form-group row">
-                <label for="inputWindingAlarm" class="col-sm-7 col-form-label checkitemtitle">Winding Alarm</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputWindingAlarm" placeholder="Winding Alarm">
-                </div>
-              </div>
-    
-    
-              <div class="form-group row">
-                <label for="inputWindingTrip" class="col-sm-7 col-form-label checkitemtitle">Winding Trip</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputWindingTrip" placeholder="Winding Trip">
-                </div>
-              </div>
-    
-    
-              <div class="form-group row">
-                <label for="inputFansOilPumpsStart" class="col-sm-7 col-form-label checkitemtitle">Fans & Oil Pumps
-                  Start</label>
-                <div class="col-sm-5">
-                  <input type="number" class="form-control" id="inputFansOilPumpsStart"
-                    placeholder="Fans & Oil Pumps Start">
-                </div>
-              </div>
-    
-            </form>
-          </div>
-        </div>
       </div>
     </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+    </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Checking The Control Box</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
+      <div>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Cleaning & Box Sealing:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Cleaning & Box Sealing:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Cleaning&BoxSealingchecked" id="Cleaning&BoxSealingcheckedOK"
                   value="OK" checked>
@@ -1143,13 +1035,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Illumination:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Illumination:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Illuminationchecked" id="IlluminationcheckedOK"
                   value="OK" checked>
@@ -1165,13 +1055,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Heaters:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Heaters:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Heaterschecked" id="HeaterscheckedOK" value="OK"
                   checked>
@@ -1186,13 +1074,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Wire Connection:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Wire Connection:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="WireConnectionchecked" id="WireConnectioncheckedOK"
                   value="OK" checked>
@@ -1208,13 +1094,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Fuses:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Fuses:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Fuseschecked" id="FusescheckedOK" value="OK" checked>
                 <label class="form-check-label" for="FusescheckedOK">
@@ -1228,13 +1112,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Switch Position:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Switch Position:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="SwitchPositionchecked" id="SwitchPositioncheckedOK"
                   value="OK" checked>
@@ -1250,13 +1132,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Door Lock:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Door Lock:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="DoorLockchecked" id="DoorLockcheckedOK" value="OK"
                   checked>
@@ -1271,22 +1151,17 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
-      </form>
     </div>
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+  </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Fans and Oil Pumps</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
-
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Operation (Manual/Auto):</legend>
-            <div class="col-sm-5">
+      <div>
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Operation (Manual/Auto):</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Operationchecked" id="OperationcheckedOK" value="OK"
                   checked>
@@ -1301,13 +1176,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Correct Rotating:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Correct Rotating:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="CorrectRotatingchecked" id="CorrectRotatingcheckedOK"
                   value="OK" checked>
@@ -1323,13 +1196,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Sound or Unbalance:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Sound or Unbalance:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="SoundorUnbalancechecked" id="SoundorUnbalancecheckedOK"
                   value="OK" checked>
@@ -1345,13 +1216,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Contactors:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Contactors:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="Contactorschecked" id="ContactorscheckedOK" value="OK"
                   checked>
@@ -1366,13 +1235,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Overload Relay:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Overload Relay:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="OverloadRelaychecked" id="OverloadRelaycheckedOK"
                   value="OK" checked>
@@ -1388,40 +1255,36 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-          <div class="form-group row">
-            <label for="inputFansCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Fans Current
+          <div class="form-group checkitem">
+            <label for="inputFansCurrentMeasurement" class="col-form-label checkitemtitle">Fans Current
               Measurement:</label>
-            <div class="col-sm-5">
+            <div class="checkitemfield">
               <input type="number" class="form-control" id="inputFansCurrentMeasurement" placeholder="Fans Current Measurement">
             </div>
           </div>
 
-          <div class="form-group row">
-            <label for="inputOilPumpsCurrentMeasurement" class="col-sm-7 col-form-label checkitemtitle">Oil Pumps
+          <div class="form-group checkitem">
+            <label for="inputOilPumpsCurrentMeasurement" class="col-form-label checkitemtitle">Oil Pumps
               Current Measurement:</label>
-            <div class="col-sm-5">
+            <div class="checkitemfield">
               <input type="number" class="form-control" id="inputOilPumpsCurrentMeasurement" placeholder="Oil Pumps Current Measurement">
             </div>
           </div>
 
-        </form>
       </div>
 
-    </div>
-    <div class="row align-items-center checkfield">
-      <div class="col-4 checkgrouptitle">
+    </section>
+    <section class="formsection">
+      <div class="formsectiontitle">
         <h3>Checking the AirBag</h3>
       </div>
-      <div class="col-8">
-      <form class="form-horizontal">
+      <div>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Wiring and Terminal Box:</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Wiring and Terminal Box:</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="WiringandTerminalBoxchecked" id="WiringandTerminalBoxcheckedOK"
                   value="OK" checked>
@@ -1437,13 +1300,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-        <fieldset class="form-group">
-          <div class="row">
-            <legend class="col-form-label col-sm-7 pt-0 checkitemtitle">Signal Test (alarm):</legend>
-            <div class="col-sm-5">
+        <fieldset class="form-group checkitem">
+            <div class="checkitemtitle">Signal Test (alarm):</div>
+            <div class="checkitemfield">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="SignalTestchecked" id="SignalTestcheckedOK" value="OK"
                   checked>
@@ -1458,13 +1319,11 @@
                 </label>
               </div>
             </div>
-          </div>
         </fieldset>
 
-      </form>
     </div>
-    </div>
-  </div>
+  </section>
+  </form>
 
 
   <!-- Optional JavaScript -->

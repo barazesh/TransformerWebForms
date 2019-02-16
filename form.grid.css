@@ -16,6 +16,7 @@ h5{
 #titlebar{
     background-color: lightsteelblue;
     display: grid;
+   
     grid-template-columns: repeat(2, 3fr) 2fr 1fr;
     grid-template-rows: repeat(2,1fr);
     grid-template-areas: 
@@ -34,10 +35,99 @@ h5{
     grid-area: devicespec2;
 }
 
+
 .formlayout{
     display: grid;
     
 }
+/* form Section */
+
+.formsection{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid;
+    margin: 10px;
+    align-items: center;
+    background-color: aliceblue
+}
+.formsectiontitle{
+    grid-column: 1/2;
+    justify-self: center;
+
+}
+
+.checkitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid;
+    margin: 2px;
+}
+
+.checkitemtitle{
+    font-size: 1.1em;
+    font-weight: bold;
+    grid-column: 1/2;
+}
+
+.checkitemfield{
+    grid-column: 2/3;
+}
+
+/* form section end */
+
+
+/* Special form Section */
+
+.formsectionspecial{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    border: 2px solid;
+    margin: 10px;
+    align-items: center;
+    background-color: beige;
+
+    
+}
+.formsectiontitle{
+    grid-column: 1/2;
+
+}
+
+.formsubsection{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    border: 1px solid;
+    margin: 2px 2px 2px 0;
+    align-items: center;
+}
+
+.formsubsectiontitle{
+    grid-column: 1/2;
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+}
+
+.checkitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid;
+    margin: 2px;
+}
+
+.checkitemtitle{
+    font-size: 1.1em;
+    font-weight: bold;
+    grid-column: 1/2;
+}
+
+.checkitemfield{
+    grid-column: 2/3;
+}
+
+/* Special form section end */
+
+
+
 
 
 #specbar{
@@ -88,13 +178,6 @@ h5{
     margin: 0;
    }
 
-.checkitemtitle{
-    width: 25%;
-    float: left;
-    /* display: inline-block; */
-    font-size: 1.1em;
-    font-weight: bold;
-}
 .pola{
     background-color: lightblue;
     display: inline-block;
@@ -148,10 +231,4 @@ h5{
     width: 60%;
     display: inline-block;
     margin: 0;
-}
-
-fieldset.form-group{
-    border-style: solid;
-    border-width: 1px;
-    margin: 1px 0;
 }

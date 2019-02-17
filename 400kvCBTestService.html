@@ -11,159 +11,104 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="form.css">
+  <!-- <link rel="stylesheet" href="form.css"> -->
+  <link rel="stylesheet" href="form.grid.css">
+
 
 
   <title>PM Forms</title>
 </head>
 
 <body>
-  <div class="container-fluid">
 
-    <div id="titlebar" class="row">
-      <div class="col-4 text-center header">
-        <div class="row">
-          <div class="col-6">
-            <h6>
-              830Q-F58.6
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              :کد مدرک
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              93/11/01-00
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              :شماره و تاریخ بازنگری
-            </h6>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-7 text-center header">
-        <h1>
-          شرکت برق منطقه ای خراسان
-        </h1>
-        <h3>
-          معاونت بهره برداری-دفتر فنی انتقال
-        </h3>
-      </div>
-
-      <div id="brand" class="col-1 header">
-        <img src="krec-logo.png" class="img-fluid">
-      </div>
-
-      <div class="col-4 header">
-        <div class="row">
-          <div class="col-6">
-            <h6>
-              Substation:
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              Pazh
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              Type:
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>TLSN7552</h6>
-          </div>
-          <div class="col-6">
-            <h6>Ambient Temperature:</h6>
-          </div>
-          <div class="col-6">
-            <h6>10</h6>
-          </div>
-        </div>
-
-      </div>
-      <div class="col-4 header text-center">
-        <h3>
-          (تست و سرویس بریکر 400 کیلوولت فنری)
-        </h3>
-        <h3>
-          400 kV Circuit Breaker Test&Service
-        </h3>
-        <h6>(spring system)</h6>
-      </div>
-      <div class="col-4 header">
-        <div class="row">
-          <div class="col-6">
-            <h6>
-              Rated Voltage:
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              420 kV
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>
-              Rated Current:
-            </h6>
-          </div>
-          <div class="col-6">
-            <h6>4000 A</h6>
-          </div>
-          <div class="col-6">
-            <h6>Rated Short Circuit Current:</h6>
-          </div>
-          <div class="col-6">
-            <h6>50 kA</h6>
-          </div>
-        </div>
-
-      </div>
-
+  <div id="titlebar">
+    <div class="form_spec header">
+      <div>
+      <span>
+          830Q-F58.6
+      </span>
+      <span>
+          :کد مدرک
+      </span>
     </div>
-    <div id="specbar" class="row">
-      <div class="col-8">
-        <h6>
-          Line Name
-        </h6>
-      </div>
-      <div class="col-4">
-        <h6>
-          yek
-        </h6>
-      </div>
+      <div>
+        <span>
+          93/11/01-00
+        </span>
 
-      <div class="col-8">
-        <h6>
-          Dispatching Code
-        </h6>
-      </div>
-      <div class="col-4">
-        <h6>
-          8465186418
-        </h6>
-      </div>
-
-      <div class="col-8">
-        <h6>
-          Serial Number
-        </h6>
-      </div>
-      <div class="col-4">
-        <h6>
-          8465186418
-        </h6>
+        <span>
+          :شماره و تاریخ بازنگری
+        </span>
       </div>
     </div>
+
+  <div class="text-center header" id="company-name">
+    <h1>
+      شرکت برق منطقه ای خراسان
+    </h1>
+    <h3>
+      معاونت بهره برداری-دفتر فنی انتقال
+    </h3>
+  </div>
+
+  <div id="brand" class="header">
+    <img src="krec-logo.png" class="img-fluid">
+  </div>
+
+  <div class="header" id="device-spec1">
+      <div>
+        <span>
+          Substation:
+        </span>
+        <span>
+          Pazh
+        </span>
+      </div>
+      <div>
+        <span>
+          Type:
+        </span>
+        <span>TLSN7552</span>
+      </div>
+      <div>
+        <span>Ambient Temperature:</span>
+        <span>10</span>
+      </div>
 
   </div>
+  <div class="header text-center" id="form-name">
+    <h3>
+      (تست و سرویس بریکر 400 کیلوولت فنری)
+    </h3>
+    <h3>
+      400 kV Circuit Breaker Test&Service
+    </h3>
+    <h6>(spring system)</h6>
+  </div>
+  <div class="header" id="device-spec2">
+        <div>
+          <span>
+            Rated Voltage:
+          </span>
+          <span>
+            420 kV
+          </span>
+        </div>
+        <div>
+          <span>
+            Rated Current:
+          </span>
+          <span>4000 A</span>
+        </div>
+        <div>
+          <span>Rated Short Circuit Current:</span>
+          <span>50 kA</span>
+        </div>
+  </div>
+
+</div>
+
   <div id="polsrow">
 
     <div class="pola text-center">

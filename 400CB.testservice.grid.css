@@ -1,0 +1,134 @@
+
+h3 {
+    font-size: 1.4em;
+}
+
+
+
+#titlebar{
+    background-color: lightsteelblue;
+    display: grid;
+   
+    grid-template-columns: repeat(2, 3fr) 2fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "formspec companyname companyname brand"
+     "devicespec formname devicespec2 devicespec2";
+}
+#form-spec{
+    grid-area: formspec;
+}
+
+#company-name{
+    grid-area: companyname;
+}
+
+#device-spec2{
+    grid-area: devicespec2;
+}
+
+
+/* form Section */
+
+.formsection{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 2px solid;
+    margin: 10px;
+    align-items: center;
+    background-color: aliceblue
+}
+.formsectiontitle{
+    grid-column: 1/2;
+    justify-self: center;
+
+}
+
+.checkitem{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid;
+    margin: 2px;
+}
+
+.checkitemtitle{
+    font-size: 1.1em;
+    font-weight: bold;
+    grid-column: 1/2;
+}
+
+.checkitemfieldpola{
+    grid-column: 2/3;
+}
+
+.checkitemfieldpolb{
+    grid-column: 3/4;
+}
+
+.checkitemfieldpolc{
+    grid-column: 4/5;
+}
+
+/* form section end */
+
+
+/* Special form Section */
+
+.formsectionspecial{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    border: 2px solid;
+    margin: 10px;
+    align-items: center;
+    background-color: beige;
+
+    
+}
+
+
+.formsubsection{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    border: 1px solid;
+    margin: 2px 2px 2px 0;
+    align-items: center;
+}
+
+.formsubsectiontitle{
+    grid-column: 1/2;
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+}
+
+/* .checkitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid;
+    margin: 2px;
+} */
+
+.checkitemtitle{
+    font-size: 1.1em;
+    font-weight: bold;
+    grid-column: 1/2;
+}
+
+.checkitemfield{
+    grid-column: 2/3;
+}
+
+/* Special form section end */
+
+
+
+
+
+#specbar{
+    background-color: lightgoldenrodyellow;
+}
+
+
+.header{
+    border-style: double;
+    border-color: black;
+}

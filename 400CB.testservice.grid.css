@@ -49,6 +49,7 @@ h3 {
     grid-template-columns: repeat(4,1fr);
     border: 1px solid;
     margin: 2px;
+    /* justify-items: center; */
 }
 
 .checkitemtitle{
@@ -58,15 +59,20 @@ h3 {
 }
 
 .checkitemfieldpola{
-    grid-column: 2/3;
+    background-color: lightblue;
+    padding: 0 20px;
 }
 
 .checkitemfieldpolb{
-    grid-column: 3/4;
+    background-color: lightyellow;
+    padding: 0 20px;
+
 }
 
 .checkitemfieldpolc{
-    grid-column: 4/5;
+    background-color: lightsalmon;
+    padding: 0 20px;
+
 }
 
 /* form section end */
@@ -82,46 +88,16 @@ h3 {
     align-items: center;
     background-color: beige;
 
-    
 }
 
 
-.formsubsection{
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    border: 1px solid;
-    margin: 2px 2px 2px 0;
+.formsectionspecial .checkitem{
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
 }
 
-.formsubsectiontitle{
-    grid-column: 1/2;
-    writing-mode: vertical-lr;
-    vertical-align: middle;
-}
-
-/* .checkitem{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 1px solid;
-    margin: 2px;
-} */
-
-.checkitemtitle{
-    font-size: 1.1em;
-    font-weight: bold;
-    grid-column: 1/2;
-}
-
-.checkitemfield{
-    grid-column: 2/3;
-}
 
 /* Special form section end */
-
-
-
-
 
 #specbar{
     background-color: lightgoldenrodyellow;
